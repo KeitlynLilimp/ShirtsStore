@@ -1,2 +1,2 @@
-Frontend Store
+Shirts Store
 https://keitlynlilimp.github.io/
