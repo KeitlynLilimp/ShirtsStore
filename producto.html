@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img class="header__logo" src="/img/logo.png" alt="logo" />
+      </a>
+      <h2><span>By</span> Keililim</h2>
+    </header>
+
+    <nav class="navegacion">
+      <a class="navegacion__enlace--activo" href="index.html">Tienda</a>
+      <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+      <h1>VueJs</h1>
+      <div class="camisa">
+        <img
+          src="/img/1.jpg"
+          alt="imagen del producto"
+          class="camisa__imagen"
+        />
+        <div class="camisa__contenido">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+            aperiam, ipsa voluptas perferendis amet blanditiis iste, rem,
+            distinctio nulla voluptatem quaerat. Laboriosam dignissimos
+            obcaecati itaque! Dolorem laudantium officiis enim earum.
+          </p>
+          <form class="formulario">
+            <select class="formulario__campo">
+              <option disabled selected>---Seleccionar Talla---</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+              <option>Xl</option>
+            </select>
+            <input
+              class="formulario__campo"
+              type="number"
+              placeholder="Cantidad"
+              min="1"
+            />
+            <input
+              type="submit"
+              class="formulario__submit"
+              value="Agregar al carrito"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">
+        Front End Store Keililim - Todos los derechos reservados 2023.
+      </p>
+    </footer>
+  </body>
+</html>
